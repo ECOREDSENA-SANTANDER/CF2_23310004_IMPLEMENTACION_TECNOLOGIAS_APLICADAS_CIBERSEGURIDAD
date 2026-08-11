@@ -1,17 +1,14 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Pruebas de seguridad y protección de infraestructuras tecnológicas',
+    Description:
+      'El componente Pruebas de seguridad y protección de infraestructuras tecnológicas desarrolla capacidades para evaluar vulnerabilidades mediante metodologías y herramientas de <em>hacking</em> ético, así como para implementar y comprobar controles de seguridad en <em>hardware</em> y <em>software</em>. Promueve la ejecución responsable de pruebas autorizadas, la toma de decisiones técnicas, la protección de los activos tecnológicos y la documentación de resultados orientados a fortalecer la seguridad y continuidad de la infraestructura organizacional.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
-      },
-      {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
       },
     ],
   },
@@ -31,7 +28,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos del <em>hacking</em> ético',
         desarrolloContenidos: true,
         subMenu: [
           {
