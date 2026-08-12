@@ -34,9 +34,107 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Principios éticos y condiciones de autorización
 
-    p.mb-4 Las pruebas de seguridad deben desarrollarse bajo principios éticos, legales y técnicos que garanticen una evaluación responsable de los sistemas tecnológicos. Antes de iniciar cualquier actividad, es necesario contar con una autorización formal y verificable, en la cual se establezca el alcance de la prueba, los sistemas involucrados, las técnicas permitidas, los responsables y las condiciones de ejecución.
+    p.mb-4 Las pruebas de seguridad deben desarrollarse bajo principios #[b éticos, legales y técnicos] que garanticen una evaluación responsable de los sistemas tecnológicos. Antes de iniciar cualquier actividad, es necesario contar con una #[b autorización formal y verificable], en la cual se establezca el alcance de la prueba, los sistemas involucrados, las técnicas permitidas, los responsables y las condiciones de ejecución.
 
     p.mb-5 Durante el proceso de evaluación se deben aplicar principios fundamentales como:
+    
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
+      .col-lg-4.col-md-6.mb-lg-0.mb-4
+        .h-100.bg1.p-4
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/4.svg' alt='AvatarTop')
+          h4.mb-4.text-center Necesidad
+          p.mb-0.text-center Realizar únicamente las acciones indispensables para cumplir el objetivo de la prueba, evitando la manipulación o extracción innecesaria de información. 
+      .col-lg-4.col-md-6.mb-lg-0.mb-4
+        .h-100.bg1.p-4
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/5.svg' alt='AvatarTop')
+          h4.mb-4.text-center Confidencialidad
+          p.mb-0.text-center Proteger los datos, evidencias e informes obtenidos durante la evaluación, garantizando que solo sean consultados por personal autorizado. 
+      .col-lg-4.col-md-6.mb-lg-0.mb-4
+        .h-100.bg1.p-4
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
+          h4.mb-4.text-center Trazabilidad
+          p.mb-0.text-center Registrar las actividades realizadas, incluyendo fechas, herramientas utilizadas, sistemas evaluados y resultados obtenidos, permitiendo verificar el desarrollo de la prueba. 
+    
+    p.mb-5 La aplicación de estos principios permite que el #[b #[em hacking] ético] sea una práctica controlada y responsable, orientada a la identificación de vulnerabilidades y al fortalecimiento de la seguridad de las organizaciones. En ambientes educativos, las pruebas deben realizarse en #[b laboratorios controlados o entornos autorizados,] promoviendo el aprendizaje técnico bajo criterios de respeto, seguridad y protección de la información.
+
+    .tit.mb-5(data-aos="fade-right")
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      h3.mb-0 Técnicas y enfoques de evaluación
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        img(src='@/assets/curso/tema1/7.png' alt='AvatarTop')
+      .col-lg-9
+        .bg2.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-md-8.col-12.mb-0(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/8.svg', alt='')
+            .col-lg-7(data-aos="fade-left")
+              .p-4
+                p.mb-0 Las técnicas de hacking ético permiten evaluar la seguridad de los sistemas mediante procesos controlados como la revisión documental, reconocimiento, enumeración, análisis de vulnerabilidades, comprobación manual, explotación controlada y validación de configuraciones. Estas actividades ayudan a identificar posibles debilidades y verificar la efectividad de los controles implementados.
+        p.mb-4 La revisión documental permite comparar políticas y configuraciones establecidas con la realidad del sistema. Por su parte, el reconocimiento y la enumeración recopilan información sobre servicios, tecnologías y recursos disponibles dentro del alcance autorizado. El análisis de vulnerabilidades combina herramientas automáticas y validaciones manuales para identificar riesgos, mientras que la explotación controlada permite comprobar una vulnerabilidad sin afectar la operación del sistema.
+        p.mb-0 Estas técnicas deben aplicarse bajo criterios éticos, autorizados y responsables, evitando daños, alteraciones de información o accesos no permitidos, con el propósito de fortalecer la seguridad de las organizaciones.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-12
+        img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
+        .row.justify-content-center.g-0
+          .col-lg-12
+            .tarjeta.color-secundario.p-4.rounded-0.h-100
+              .tarjeta.bg-white.p-4.p-lg-5.h-100
+                TarjetaAudio.color-acento-botones.mb-0(
+                texto="Pódcast: Tipos de servicio: caja negra, caja blanca, caja gris y combinados"
+                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+            ).mb-0
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
+    .cajon.color-primario.p-4.mb-5(data-aos="fade-left")
+      p.mb-0 Los servicios #[b combinados] utilizan varios enfoques en etapas distintas. Una evaluación puede comenzar como caja negra para analizar la exposición externa y continuar como caja blanca para revisar la causa de los hallazgos. Esta combinación mejora la relación entre realismo, profundidad, tiempo y cobertura.
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Tabla 1.
+          | Comparación de técnicas y enfoques de evaluación de seguridad
+        .row
+          .col-lg-9
+            .tabla-a.tab1.mb-0
+              table
+                thead
+                  tr
+                    th Enfoque
+                    th Información inicial
+                    th Ventaja principal
+                    th Limitación principal
+                    th Aplicación frecuente
+                tbody
+                  tr
+                    td Caja negra
+                    td.text-center Mínima
+                    td Simula exposición externa.
+                    td Menor cobertura interna.
+                    td Perímetro y servicios públicos.
+                  tr
+                    td Caja blanca
+                    td.text-center Amplia
+                    td Mayor profundidad técnica.
+                    td Menor similitud con un ataque externo.
+                    td Configuración, código y arquitectura.
+                  tr
+                    td Caja gris
+                    td.text-center Parcial
+                    td Equilibrio entre realismo y cobertura.
+                    td Depende de la calidad del acceso entregado.
+                    td Roles, aplicaciones y redes internas.
+                  tr
+                    td Combinado
+                    td.text-center Variable
+                    td Integra perspectivas complementarias.
+                    td Requiere mayor planeación.
+                    td Evaluaciones integrales.
+          .col-lg-3.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/10.png", alt="Descripción imagen")
+
 
 </template>
 
