@@ -74,7 +74,7 @@ figcaption
 
 
 .bloque-texto-g.color-secundario 
-    background-color: #A4B7E9
+  background-color: #A4B7E9
 
 .tit
   background-color: #1D4BC9
@@ -100,7 +100,9 @@ figcaption
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     width: 55px
     height: 55px
+    top: 40%
   @media only screen and (max-width: 767px)
+    top: 48%
     width: 55px
     height: 55px
 
@@ -130,41 +132,45 @@ figcaption
     color: white
 
 .bg4
-  background-color:#112D78
+  background-color: #112D78
 
 .bg5
   background-color:#6D33A9
   border-radius: 20px
 
+.bg6
+  background-color: #E8ECFA
+  border-radius: 20px
 
+.bg7
+  background-color: #61005A
 
+.bg8
+  background: url('../assets/curso/tema5/7.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  border-radius: 20px 0px 0px 20px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+.bg9
+  background: url('../assets/curso/tema5/8.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  border-radius: 0px 20px 20px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg10
+  background-color: #ffffff
+  border-radius: 20px
 
 .tarjeta-audio.color-acento-botones 
   border-color: #4FF0A2
@@ -218,29 +224,29 @@ figcaption
   background-color: #4FF0A2
   color: black
 
-.fondo33
+
+.fondo1
   background: url('../assets/curso/tema3/fd3.png')
-  background-size: 100% 95%
+  background-size: 100% 100%
   background-repeat: no-repeat
-  background-position: bottom
+  background-position: center 
   margin-inline: -3.4rem
-  margin-top: -30px
   @media screen and (max-width: 992px)
     margin-inline: -3rem
   @media screen and (max-width: 767px)
     margin-inline: -2.4rem
     margin-right: -2rem
     margin-left: -2rem
-    background-size:  100% 100%
+    background-size: 100% 
+.im1
+  margin-bottom: -47px
+
 @media only screen and (min-width: 768px) and (max-width: 1023px)
   .p-5.fon
     padding: 2.5rem !important
 @media only screen and (max-width: 767px)
   .p-5.fon
     padding: 1.1rem !important
-.zi
-  z-index: 2 !important
-  margin-bottom: 30px !important
 
 .tarjeta--slyder.b2
   background-color: #E8ECFA
@@ -286,7 +292,7 @@ figcaption
 
 .fondo3
   background: url('../assets/curso/tema3/fondo5.png')
-  background-size: 100% 95%
+  background-size: 100% 100%
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.4rem
@@ -302,24 +308,42 @@ figcaption
 .bloque-texto-g.color-acento-contenido 
   background-color: #61005A
 
+.bloque-texto-g.color-secund
+  background-color: #12263F
 
+.fd5
+  background: url('../assets/curso/tema5/fd5.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  margin-top: -30px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.acordion__accion__btn--a
+  background-color: #4FF0A2
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #C4ADDC
+  h3
+    color: black
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #4FF0A2
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #F0EAF6 !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
 
 
 //////////////////////////////////////TABLAS////////////////////////////////////
@@ -338,12 +362,28 @@ figcaption
       text-align: left
       //border: none
   table th
-    padding: 14px 17px
+    padding: 16px 15px
     text-align: left
   table td 
-    padding: 14px 17px
+    padding: 13px 15px
 
-.tabla-a.tab1
+////////////////////////TABLAS PEQUEÑAS//////////////////////////////
+
+.tabla-a.tabla-peq
+  overflow-x: visible !important
+  overflow: visible !important
+  @media (max-width: 991px)
+    overflow-x: auto !important
+    -webkit-overflow-scrolling: touch !important
+    display: block !important
+  table
+    min-width: auto !important
+    width: 100% !important
+    table-layout: auto !important
+    @media (max-width: 991px)
+      min-width: 500px !important 
+
+.tabla-a.tabla-peq.tabla1
   tbody
     td:first-child
       font-weight: bold
@@ -352,7 +392,7 @@ figcaption
     //td:first-child
       border-left: none
   th:nth-child(1)
-    width: 14%
+    width: 13%
   th:nth-child(2)
     width: 21%
   th:nth-child(3)
@@ -360,9 +400,9 @@ figcaption
   th:nth-child(4)
     width: 23%
   th:nth-child(5)
-    width: 23%
+    width: 24%
 
-.tabla-a.tab2
+.tabla-a.tabla-peq.tabla2
   table th
     padding: 19px 17px
     text-align: left
@@ -385,3 +425,18 @@ figcaption
     width: 21%
   th:nth-child(5)
     width: 21%
+
+.tabla-a.tabla-peq.tabla3
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 22%
+  th:nth-child(2)
+    width: 39%
+  th:nth-child(3)
+    width: 39%
