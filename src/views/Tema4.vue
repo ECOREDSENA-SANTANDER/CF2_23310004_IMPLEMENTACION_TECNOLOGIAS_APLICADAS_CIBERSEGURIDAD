@@ -19,7 +19,7 @@
             br
             p.mb-0 Durante el diagnóstico se identifican los #[b activos, riesgos y brechas de seguridad.] Posteriormente, se diseñan los controles y se establecen responsables, procedimientos, respaldos y criterios de validación. Finalmente, se implementan las configuraciones, se verifica su funcionamiento y se realizan ajustes para mantener la efectividad de las medidas de protección.
 
-    p.mb-5(data-aos="fade-right") Los estándares #[b #[em ISO/IEC 27001:2022 (International Organization for Standardization / International Electrotechnical Commission) e ISO/IEC 27002:2022 ]]proporcionan lineamientos para la gestión y aplicación de controles de seguridad, destacando la importancia de relacionarlos con los riesgos y el contexto de la organización.
+    p.mb-5(data-aos="fade-right") Los estándares #[b ISO/IEC 27001:2022 #[em (International Organization for Standardization / International Electrotechnical Commission]]) e ISO/IEC 27002:2022 proporcionan lineamientos para la gestión y aplicación de controles de seguridad, destacando la importancia de relacionarlos con los riesgos y el contexto de la organización.
 
 
     .tit.mb-5(data-aos="fade-left")
@@ -34,14 +34,14 @@
       .col-lg-6
         .bg6.p-4.mb-0
           img.img-t.mb-4.mt-lg-4(src='@/assets/curso/tema4/3.svg')
-          p.mb-4 La separación de funciones evita errores o modificaciones no autorizadas. Para facilitar esta gestión se utiliza la matriz #[em #[b RACI (Responsible, Accountable, Consulted, Informed)]], que permite identificar responsables, aprobadores, consultados e informados en cada actividad.
+          p.mb-4 La separación de funciones evita errores o modificaciones no autorizadas. Para facilitar esta gestión se utiliza la matriz #[b RACI #[em (Responsible, Accountable, Consulted, Informed)]], que permite identificar responsables, aprobadores, consultados e informados en cada actividad.
           p.mb-0.mb-lg-3 También es importante establecer responsabilidades con proveedores externos, definiendo accesos autorizados, mecanismos de autenticación, horarios de operación, registros de actividad y procedimientos de finalización del servicio.
-
-    p.mb-5(data-aos="fade-left") Los controles de seguridad pueden clasificarse en:
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Selección de controles de seguridad
+    
+    p.mb-4(data-aos="fade-left") Los controles de seguridad pueden clasificarse en:
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -70,8 +70,8 @@
           .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/tema4/8.svg')
           .col-lg-10
-            p.mb-0 El estándar #[em #[b NIST SP 800-53 Rev. 5 (National Institute of Standards and Technology Special Publication 800-53 Revision 5)]] proporciona un catálogo de controles relacionados con acceso, auditoría, configuración, continuidad, respuesta a incidentes y protección de sistemas.
-        p.mb-0 Asimismo, los #[em #[b CIS Controls v8.1 (Center for Internet Security Controls)]] ofrecen medidas priorizadas para fortalecer la seguridad mediante prácticas como inventario de activos, gestión de vulnerabilidades, protección de redes, monitoreo y recuperación.
+            p.mb-0 El estándar #[b NIST SP #[em 800-53 Rev. 5 (National Institute of Standards and Technology Special Publication 800-53 Revision 5)]] proporciona un catálogo de controles relacionados con acceso, auditoría, configuración, continuidad, respuesta a incidentes y protección de sistemas.
+        p.mb-0 Asimismo, los #[b CIS Controls v8.1 #[em (Center for Internet Security Controls)]] ofrecen medidas priorizadas para fortalecer la seguridad mediante prácticas como inventario de activos, gestión de vulnerabilidades, protección de redes, monitoreo y recuperación.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -85,21 +85,24 @@
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-8
-            .bg5.p-lg-5.p-4
-              img.img-a.img-t.mb-4(src='@/assets/curso/tema4/10.svg')
-              ul.lista-ul.mb-0.text-white
+            .bg5.p-4
+              img.img-a.img-t.mb-4.mt-lg-4(src='@/assets/curso/tema4/10.svg')
+              ul.lista-ul.mb-0.text-white.mb-lg-3
                 li.d-flex.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Porcentaje de sistemas con configuraciones aprobadas. 
                 li.d-flex.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Cantidad de cuentas privilegiadas protegidas con autenticación multifactor #[em (Multi-Factor Authentication, MFA). ]
+                  p.mb-0 Cantidad de cuentas privilegiadas protegidas con autenticación multifactor #[em (Multi-Factor Authentication,] MFA).
                 li.d-flex.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Tiempo promedio de corrección de vulnerabilidades. 
                 li.d-flex.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Cobertura de registros y monitoreo. 
+                li.d-flex.mb-0
+                  i.lista-ul__vineta
+                  p.mb-0 Porcentaje de activos con soporte vigente. 
           .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema4/9.png')
 

@@ -22,7 +22,7 @@ export default {
       tema: 'Pruebas de seguridad y protección de infraestructuras tecnológicas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar la comprensión de los fundamentos del hacking ético, los tipos de evaluación, la clasificación de ataques, la metodología de pruebas de seguridad, el manejo de evidencias, la elaboración de informes, la implementación y verificación de controles, las conexiones VPN, la contingencia y la recuperación ante desastres.',
+        '<b> Objetivo:</b> verificar la comprensión de los fundamentos del <em>hacking</em> ético, los tipos de evaluación, la clasificación de ataques, la metodología de pruebas de seguridad, el manejo de evidencias, la elaboración de informes, la implementación y verificación de controles, las conexiones VPN, la contingencia y la recuperación ante desastres.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

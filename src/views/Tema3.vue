@@ -24,19 +24,19 @@
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
-          .row.align-items-center(titulo="<em>OWASP WSTG (Open Worldwide Application Security Project Web Security Testing Guide)</em>")
+          .row.align-items-center(titulo="OWASP WSTG <em>(Open Worldwide Application Security Project Web Security Testing Guide)</em>")
             .col-lg-12
               p.mb-0 Guía orientada a la evaluación de seguridad en aplicaciones y servicios web. Permite realizar pruebas sobre autenticación, autorización, gestión de sesiones, validación de entradas, criptografía y configuraciones de seguridad. 
-          .row.align-items-center(titulo="<em>MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)</em>")
+          .row.align-items-center(titulo="MITRE ATT&CK <em>(Adversarial Tactics, Techniques, and Common Knowledge)</em>")
             .col-lg-12
               p.mb-0 Marco de conocimiento que organiza las tácticas y técnicas utilizadas por los atacantes, permitiendo relacionar las pruebas de seguridad con comportamientos reales y fortalecer los mecanismos de defensa. 
-          .row.align-items-center(titulo="<em>NIST SP 800-53A (National Institute of Standards and Technology Special Publication 800-53A)</em>")
+          .row.align-items-center(titulo="NIST SP 800-53A <em>(National Institute of Standards and Technology Special Publication 800-53A)</em>")
             .col-lg-12
               p.mb-0 Documento de referencia para la evaluación de controles de seguridad mediante actividades como revisión documental, entrevistas y pruebas técnicas. 
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema3/2.png')
 
-    p.mb-5(data-aos="fade-right") La selección de la metodología debe considerar factores como la #[b criticidad del sistema, nivel de exposición, cambios recientes, incidentes previos y requisitos de cumplimiento,] evitando aplicar pruebas innecesarias que puedan afectar la operación de la organización
+    p.mb-5(data-aos="fade-right") La selección de la metodología debe considerar factores como la #[b criticidad del sistema, nivel de exposición, cambios recientes, incidentes previos y requisitos de cumplimiento,] evitando aplicar pruebas innecesarias que puedan afectar la operación de la organización.
 
     .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -135,7 +135,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-6
                     h4.mb-4 Pruebas de autenticación
-                    p.mb-4 Evalúan mecanismos de ingreso como contraseñas, bloqueo de cuentas, autenticación multifactor #[em (Multi-Factor Authentication, MFA)] y recuperación de acceso. 
+                    p.mb-4 Evalúan mecanismos de ingreso como contraseñas, bloqueo de cuentas, autenticación multifactor #[em (Multi-Factor Authentication,] MFA) y recuperación de acceso. 
                     h4.mb-4 Pruebas de autorización
                     p.mb-lg-0.mb-4 Comprueban que cada usuario tenga únicamente los permisos asignados según su rol. 
                   .col-lg-6.col-md-8
@@ -200,7 +200,7 @@
               p.mb-4.text-center Identifican parámetros inseguros o configuraciones inadecuadas. 
 
     .cajon.color-primario.p-4.mb-5(data-aos="fade-left")
-      p.mb-0 Entre las herramientas utilizadas en evaluaciones autorizadas se encuentran #[em #[b Nmap (Network Mapper)]], para el descubrimiento de servicios; #[em #[b OWASP ZAP (Zed Attack Proxy)]] y #[em #[b Burp Suite]], para pruebas de aplicaciones web; #[em #[b Wireshark,]] para análisis de tráfico; y #[em #[b Lynis,]] para revisión de configuraciones de sistemas.
+      p.mb-0 Entre las herramientas utilizadas en evaluaciones autorizadas se encuentran #[b Nmap #[em (Network Mapper)]], para el descubrimiento de servicios; #[b OWASP ZAP #[em (Zed Attack Proxy)]] y #[b Burp Suite], para pruebas de aplicaciones web; #[b Wireshark,] para análisis de tráfico; y #[b Lynis,] para revisión de configuraciones de sistemas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -210,7 +210,7 @@
         img(src='@/assets/curso/tema3/20.svg' alt='Texto alternativo: Mapa de herramientas organizado en cinco fases de una evaluación de seguridad: reconocimiento, análisis, validación, evidencia y reporte. Cada fase incluye su objetivo y ejemplos de herramientas tecnológicas aplicables, con una nota final sobre su selección según el alcance, el sistema, las políticas y la autorización.')
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-left")
-      p.mb-0.text-center #[b Nota:] La selección de herramientas debe ajustarse al alcance, tipo de sistema, políticas de la organización y autorización otorgada.
+      p.mb-0.text-center #[b Nota:] la selección de herramientas debe ajustarse al alcance, tipo de sistema, políticas de la organización y autorización otorgada.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
@@ -241,7 +241,7 @@
             img(src='@/assets/curso/tema3/24.svg')
           .col-lg-10
             p.mb-0 La evidencia permite demostrar los hallazgos encontrados y facilitar su análisis posterior. Puede incluir registros, capturas de pantalla, configuraciones, respuestas del sistema, comandos ejecutados y resultados obtenidos.
-        p.mb-0 Cada evidencia debe estar organizada con información como #[b identificador, recurso evaluado, fecha y responsable,] garantizando su protección mediante mecanismos seguros de almacenamiento. Además, debe evitar la exposición de datos sensibles como contraseñas, tokens o información personal.
+        p.mb-0 Cada evidencia debe estar organizada con información como #[b identificador, recurso evaluado, fecha y responsable,] garantizando su protección mediante mecanismos seguros de almacenamiento. Además, debe evitar la exposición de datos sensibles como contraseñas, #[em tokens] o información personal.
     
     p.mb-5(data-aos="fade-left") El análisis debe diferenciar entre la #[b evidencia obtenida,] la interpretación del riesgo y las recomendaciones de mejora. También es importante documentar las pruebas realizadas sin hallazgos, ya que permiten demostrar la cobertura de la evaluación.
 
@@ -268,9 +268,9 @@
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-4.col-md-8
-            .bg5.p-lg-5.p-4
-              img.img-a.img-t.mb-4(src='@/assets/curso/tema3/28.svg')
-              ul.lista-ul.mb-0.text-white
+            .bg5.p-4
+              img.img-a.img-t.mb-4.mt-lg-2(src='@/assets/curso/tema3/28.svg')
+              ul.lista-ul.mb-0.text-white.mb-lg-2
                 li.d-flex.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Identificador y título del hallazgo.
@@ -292,6 +292,9 @@
                 li.d-flex.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Recomendaciones de solución. 
+                li.d-flex.mb-0
+                  i.lista-ul__vineta
+                  p.mb-0 Responsables y tiempos de atención.  
           .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema3/29.png')
 

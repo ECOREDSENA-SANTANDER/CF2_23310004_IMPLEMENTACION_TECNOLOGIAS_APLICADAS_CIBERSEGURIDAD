@@ -71,7 +71,7 @@
               img(src='@/assets/curso/tema1/8.svg')
             .col-lg-7(data-aos="fade-left")
               .p-4
-                p.mb-0 Las técnicas de hacking ético permiten evaluar la seguridad de los sistemas mediante procesos controlados como la revisión documental, reconocimiento, enumeración, análisis de vulnerabilidades, comprobación manual, explotación controlada y validación de configuraciones. Estas actividades ayudan a identificar posibles debilidades y verificar la efectividad de los controles implementados.
+                p.mb-0 Las técnicas de #[em hacking] ético permiten evaluar la seguridad de los sistemas mediante procesos controlados como la revisión documental, reconocimiento, enumeración, análisis de vulnerabilidades, comprobación manual, explotación controlada y validación de configuraciones. Estas actividades ayudan a identificar posibles debilidades y verificar la efectividad de los controles implementados.
         p.mb-4 La revisión documental permite comparar políticas y configuraciones establecidas con la realidad del sistema. Por su parte, el reconocimiento y la enumeración recopilan información sobre servicios, tecnologías y recursos disponibles dentro del alcance autorizado. El análisis de vulnerabilidades combina herramientas automáticas y validaciones manuales para identificar riesgos, mientras que la explotación controlada permite comprobar una vulnerabilidad sin afectar la operación del sistema.
         p.mb-0 Estas técnicas deben aplicarse bajo criterios éticos, autorizados y responsables, evitando daños, alteraciones de información o accesos no permitidos, con el propósito de fortalecer la seguridad de las organizaciones.
 

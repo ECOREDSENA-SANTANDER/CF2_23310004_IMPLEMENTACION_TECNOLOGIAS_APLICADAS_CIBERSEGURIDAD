@@ -56,7 +56,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Metodología para la ejecución de pruebas de seguridad',
+        titulo: 'Plan de seguridad',
         desarrolloContenidos: true,
       },
     ],
@@ -104,7 +104,7 @@ export default {
     {
       termino: 'Activo tecnológico',
       significado:
-        'recurso de hardware, software, red, aplicación o servicio que soporta información y procesos organizacionales.',
+        'recurso de <em>hardware</em>, <em>software</em>, red, aplicación o servicio que soporta información y procesos organizacionales.',
     },
     {
       termino: 'Alcance',
@@ -151,9 +151,9 @@ export default {
         'información verificable que demuestra una condición, resultado o hallazgo de seguridad.',
     },
     {
-      termino: 'Firewall',
+      termino: '<em>Firewall</em>',
       significado:
-        'dispositivo o software que controla comunicaciones entre redes o zonas mediante reglas.',
+        'dispositivo o <em>software</em> que controla comunicaciones entre redes o zonas mediante reglas.',
     },
     {
       termino: '<em>Hacking</em> ético',
@@ -171,7 +171,7 @@ export default {
         'sistema de detección de intrusiones que analiza tráfico o eventos y genera alertas.',
     },
     {
-      termino: '<em>MFA</em>',
+      termino: 'MFA',
       significado:
         'autenticación multifactor que utiliza dos o más factores independientes para comprobar una identidad.',
     },
@@ -204,7 +204,7 @@ export default {
     },
     {
       referencia:
-        'Cybersecurity and Infrastructure Security Agency. (2023a). Guide to securing remote access software.',
+        'Cybersecurity and Infrastructure Security Agency. (2023a). Guide to securing remote access <em>software.</em>',
       link: '',
     },
     {
@@ -280,13 +280,13 @@ export default {
       autores: [
         {
           nombre: 'Carlos Andrés Bonza Reyes',
-          cargo: 'Experto Temático',
-          centro: 'Centro Agroturístico – Regional Santander',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora instruccional',
-          centro: 'Centro Agroturístico – Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

@@ -39,8 +39,10 @@
           .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/tema2/5.svg')
           .col-lg-10
-            p.mb-0 Los ataques informáticos pueden clasificarse de acuerdo con el #[b objetivo que persigue un adversario] dentro de un entorno tecnológico. Esta clasificación permite comprender el comportamiento de las amenazas y seleccionar pruebas de seguridad orientadas a identificar y reducir riesgos
+            p.mb-0 Los ataques informáticos pueden clasificarse de acuerdo con el #[b objetivo que persigue un adversario] dentro de un entorno tecnológico. Esta clasificación permite comprender el comportamiento de las amenazas y seleccionar pruebas de seguridad orientadas a identificar y reducir riesgos.
         p.mb-0 El marco #[b MITRE ATT&CK] organiza estos comportamientos en #[b tácticas y técnicas.] Las tácticas representan la finalidad del atacante, mientras que las técnicas describen los métodos utilizados para alcanzar dichos objetivos. Este enfoque facilita la relación entre las actividades de evaluación, los registros de seguridad y los controles implementados en una organización.
+    
+    p.mb-5 Las principales tácticas asociadas a los ataques son:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -141,7 +143,7 @@
                   tr
                     td Acceso remoto no autorizado
                     td Contraseña débil.
-                    td #[em MFA] y restricción de origen.
+                    td MFA y restricción de origen.
                     td Alertas de inicio de sesión.
                     td Revocación de sesiones.
                   tr
