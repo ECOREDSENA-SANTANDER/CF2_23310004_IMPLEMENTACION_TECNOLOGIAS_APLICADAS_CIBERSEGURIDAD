@@ -9,7 +9,7 @@
       .col-lg-8
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Pruebas de seguridad y protección de infraestructuras tecnológicas, presenta los principales temas relacionados con la evaluación de vulnerabilidades, hacking ético e implementación de controles de seguridad digital. Se organiza en siete componentes: fundamentos del hacking ético, ataques informáticos, metodología de pruebas de seguridad, implementación del sistema de seguridad digital, plan de seguridad, estrategias de protección y despliegue de controles. El resultado esperado es una infraestructura tecnológica más segura, resiliente y alineada con buenas prácticas de seguridad digital.")
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12.cen
         a.anexo.mb-0(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

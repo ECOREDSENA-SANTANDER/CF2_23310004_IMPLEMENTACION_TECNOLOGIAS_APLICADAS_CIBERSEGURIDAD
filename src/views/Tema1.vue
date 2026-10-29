@@ -84,7 +84,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Pódcast: Tipos de servicio: caja negra, caja blanca, caja gris y combinados"
-                :audio="require_src('@/assets/actividad/audio/Tipos_de_modelos_y_marcos_de_referencia.mp3')"
+                :audio="require_src('@/assets/actividad/audio/Tipos_de_servicio_caja_negra_caja_blanca_caja_gris_y_combinado.mp4')"
             ).mb-0
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
