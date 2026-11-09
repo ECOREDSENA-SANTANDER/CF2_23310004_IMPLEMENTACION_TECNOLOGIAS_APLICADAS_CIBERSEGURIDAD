@@ -186,7 +186,7 @@ export default {
         'condición acordada que define cómo, cuándo y sobre qué recursos se ejecutará una prueba.',
     },
     {
-      termino: 'Retest',
+      termino: '<em>Retest</em>',
       significado:
         'nueva evaluación realizada para comprobar que un hallazgo fue corregido eficazmente.',
     },

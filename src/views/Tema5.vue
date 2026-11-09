@@ -182,7 +182,7 @@
                           td Cambio de configuración, aislamiento.
                         tr
                           td Recuperación
-                          td Reestablcer servicios.
+                          td Restablcer servicios.
                           td Copias, redundancia, plan de recuperación.
                   
     .row.justify-content-center.align-items-center.mb-0
